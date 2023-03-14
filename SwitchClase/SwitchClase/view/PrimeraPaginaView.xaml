@@ -2,25 +2,36 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="SwitchClase.view.PrimeraPaginaView"
-             Title="SENATI">
+             Title="SENATI"
+             BackgroundImageSource="https://i.pinimg.com/736x/7d/fa/0d/7dfa0d2061a1034b5ad46464404e7c8e.jpg">
+
     <ContentPage.Content>
+        
         <StackLayout>
-            <Frame BackgroundColor="Azure"
-            BorderColor="Black"
-            Margin="20"
-            CornerRadius="20"            
-            >
-                <StackLayout>
-                    <Label Text="Primera Pagina" TextColor="Black"></Label>
-                    <Entry Placeholder="Nombre" TextColor="Blue" x:Name="txtNombre"></Entry>
-                    <Entry Placeholder="Apellido" TextColor="Blue" x:Name="txtApellido"></Entry>
-                    <Entry Placeholder="DNI" TextColor="Blue" x:Name="txtDNI"></Entry>
-                    <Entry Placeholder="Dirección" TextColor="Blue" x:Name="txtDir"></Entry>
-                    <Entry Placeholder="Celular" TextColor="Blue" x:Name="txtCel"></Entry>
-                    <Switch IsToggled="False" x:Name="RememberSwitch" Toggled="RememberMe_toggle_Switch"></Switch>
-                    <Button Text="Registrar" Clicked="Button_Clicked"></Button>
-                </StackLayout>
+            <Label Text="LOGIN" TextColor="Black"   FontSize="25" 
+                           HorizontalTextAlignment="Center"
+                           FontAttributes="Bold" Margin="75"/>
+            
+            <Frame Margin="20" CornerRadius="15" BorderColor="SkyBlue">
+                <Entry Placeholder="Nombre" x:Name="txtNombre"/>
+                            
             </Frame>
+
+            <Frame Margin="20" CornerRadius="15" BorderColor="SkyBlue">
+                <Entry Placeholder="Apellido" x:Name="txtApellido"/>
+
+            </Frame>
+
+            <Frame Margin="20" CornerRadius="15" BorderColor="SkyBlue">
+                <Entry Placeholder="Año de nacimiento" x:Name="txtAnioNacimiento" Keyboard="Numeric" />
+
+            </Frame>
+
+            
+            
+            <Switch IsToggled="False" x:Name="RememberSwitch" Toggled="RememberMe_toggle_Switch"></Switch>
+            <Button Text="Ingresar" Clicked="BtnVerificarEdad_Clicked" BackgroundColor="Transparent"  
+                    CornerRadius="15" BorderWidth="3" BorderColor="Blue" HeightRequest="55" HorizontalOptions="Center"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

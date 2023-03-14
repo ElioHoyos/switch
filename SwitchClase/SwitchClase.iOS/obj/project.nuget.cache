@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "GNLEOM/9oy9X2/rgCFZn/VIo8sF6JYemYMETpuc18IVlhwjqEjAwmOfJ+4a9D7XPel+IUtoQkWrx6pToVFmcFw==",
+  "dgSpecHash": "hPoZA1cpjjuX27HDLaMGIqaPEi/hrcj4L4KHyWeQ+WJTQCuOJuDgNw92c0AJev50utYU6R6ehACnUNhZpHURFA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\INSTRUCTOR\\Documents\\CLASE\\SwitchClase\\SwitchClase\\SwitchClase.iOS\\SwitchClase.iOS.csproj",
+  "projectFilePath": "D:\\github\\switch\\SwitchClase\\SwitchClase.iOS\\SwitchClase.iOS.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\INSTRUCTOR\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
-    "C:\\Users\\INSTRUCTOR\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
-    "C:\\Users\\INSTRUCTOR\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
+    "C:\\Users\\Lenovo\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\Lenovo\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
+    "C:\\Users\\Lenovo\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
   ],
   "logs": []
 }

@@ -12,13 +12,11 @@ namespace SwitchClase.view
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class SegundaPaginaView : ContentPage
     {
-        public SegundaPaginaView(string nombre, string apellido, string dni, string direccion, string celular)
+        public SegundaPaginaView(string nombre, string mensaje)
         {
             InitializeComponent();
-            LabelNombre.Text = "Hola Señor " + nombre + " " + apellido;
-            LabelDNI.Text = "Mi DNI es : " + dni;
-            LabelDireccion.Text = "Mi Dirección es : " + direccion;
-            LabelCelular.Text = "Mi número de celular es : " + celular;
+            LabelNombre.Text = "Hola Señor " + nombre;
+            lblMensaje.Text = mensaje;
 
         }
     }
