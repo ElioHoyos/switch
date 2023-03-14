@@ -17,6 +17,7 @@
                     <Entry Placeholder="DNI" TextColor="Blue" x:Name="txtDNI"></Entry>
                     <Entry Placeholder="Dirección" TextColor="Blue" x:Name="txtDir"></Entry>
                     <Entry Placeholder="Celular" TextColor="Blue" x:Name="txtCel"></Entry>
+                    <Switch IsToggled="False" x:Name="RememberSwitch" Toggled="RememberMe_toggle_Switch"></Switch>
                     <Button Text="Registrar" Clicked="Button_Clicked"></Button>
                 </StackLayout>
             </Frame>

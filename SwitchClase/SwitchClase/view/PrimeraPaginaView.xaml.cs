@@ -15,6 +15,9 @@ namespace SwitchClase.view
         public PrimeraPaginaView()
         {
             InitializeComponent();
+            txtNombre.Text = Preferences.Get("Nombre Guardado","");
+            RememberSwitch.IsToggled = Preferences.Get("Guarado Correctamente", false);
+            
         }
 
         public async void Button_Clicked(object sender, EventArgs e) { 
@@ -28,6 +31,24 @@ namespace SwitchClase.view
                 dni, direccion, celular));
         
         }
+
+        private void RememberMe_toggle_Switch(object sender, ToggledEventArgs e)
+        {
+            if (RememberSwitch.IsToggled == true)
+            {
+                Preferences.Set("Nombre Guardado", txtNombre.Text);
+                Preferences.Set("Guardado Correctamente", RememberSwitch.IsToggled == true);
+                RememberSwitch.ThumbColor = Color.Red;
+                RememberSwitch.OnColor = Color.Green;
+            }
+            else
+            {
+                Preferences.Remove("Elimando Correctamente");
+                Preferences.Remove("Borrado");
+                RememberSwitch.ThumbColor= Color.Gray;
+            }
+        }
+            
 
     }
 }
