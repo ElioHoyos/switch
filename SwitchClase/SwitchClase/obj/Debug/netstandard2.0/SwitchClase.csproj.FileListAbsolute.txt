@@ -1,0 +1,16 @@
+C:\Users\INSTRUCTOR\Documents\CLASE\SwitchClase\SwitchClase\SwitchClase\bin\Debug\netstandard2.0\SwitchClase.deps.json
+C:\Users\INSTRUCTOR\Documents\CLASE\SwitchClase\SwitchClase\SwitchClase\bin\Debug\netstandard2.0\SwitchClase.dll
+C:\Users\INSTRUCTOR\Documents\CLASE\SwitchClase\SwitchClase\SwitchClase\bin\Debug\netstandard2.0\SwitchClase.pdb
+C:\Users\INSTRUCTOR\Documents\CLASE\SwitchClase\SwitchClase\SwitchClase\obj\Debug\netstandard2.0\SwitchClase.csproj.AssemblyReference.cache
+C:\Users\INSTRUCTOR\Documents\CLASE\SwitchClase\SwitchClase\SwitchClase\obj\Debug\netstandard2.0\SwitchClase.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\INSTRUCTOR\Documents\CLASE\SwitchClase\SwitchClase\SwitchClase\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\INSTRUCTOR\Documents\CLASE\SwitchClase\SwitchClase\SwitchClase\obj\Debug\netstandard2.0\view\PrimeraPaginaView.xaml.g.cs
+C:\Users\INSTRUCTOR\Documents\CLASE\SwitchClase\SwitchClase\SwitchClase\obj\Debug\netstandard2.0\view\SegundaPaginaView.xaml.g.cs
+C:\Users\INSTRUCTOR\Documents\CLASE\SwitchClase\SwitchClase\SwitchClase\obj\Debug\netstandard2.0\SwitchClase.AssemblyInfoInputs.cache
+C:\Users\INSTRUCTOR\Documents\CLASE\SwitchClase\SwitchClase\SwitchClase\obj\Debug\netstandard2.0\SwitchClase.AssemblyInfo.cs
+C:\Users\INSTRUCTOR\Documents\CLASE\SwitchClase\SwitchClase\SwitchClase\obj\Debug\netstandard2.0\SwitchClase.csproj.CoreCompileInputs.cache
+C:\Users\INSTRUCTOR\Documents\CLASE\SwitchClase\SwitchClase\SwitchClase\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\INSTRUCTOR\Documents\CLASE\SwitchClase\SwitchClase\SwitchClase\obj\Debug\netstandard2.0\SwitchClase.dll
+C:\Users\INSTRUCTOR\Documents\CLASE\SwitchClase\SwitchClase\SwitchClase\obj\Debug\netstandard2.0\refint\SwitchClase.dll
+C:\Users\INSTRUCTOR\Documents\CLASE\SwitchClase\SwitchClase\SwitchClase\obj\Debug\netstandard2.0\SwitchClase.pdb
+C:\Users\INSTRUCTOR\Documents\CLASE\SwitchClase\SwitchClase\SwitchClase\obj\Debug\netstandard2.0\ref\SwitchClase.dll

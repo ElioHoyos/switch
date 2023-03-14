@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SwitchClase.view.SegundaPaginaView">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Hola Bienvenido" FontSize="50"/>
+            <Label TextColor="Blue" x:Name="LabelNombre" FontSize="20"></Label>
+            <Label TextColor="Blue" x:Name="LabelDNI" FontSize="20"></Label>
+            <Label TextColor="Blue" x:Name="LabelDireccion" FontSize="20"></Label>
+            <Label TextColor="Blue" x:Name="LabelCelular" FontSize="20"></Label>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
